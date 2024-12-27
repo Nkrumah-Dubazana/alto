@@ -11,6 +11,12 @@ const Feed = () => {
           Copyright 2024 Alto
         </Typography>
       </Box>
+      <Box p = {2} sx = {{overflow: 'auto', height: '90vh', flex: 2}}>
+        <Typography variant = "h4" fontWeight = "bold" mb = {2} sx = {{ color: "white"}}>
+          New <span style={{color: '#00CC00'}}>Videos</span>          
+        </Typography>
+        <Videos/>
+      </Box>
     </Stack>
   )
 }
